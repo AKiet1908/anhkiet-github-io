@@ -1,0 +1,121 @@
+.primary {
+  width: 320px;
+  height: 42px;
+  margin-top: 15px;
+  background-color: #fb4226;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.small {
+  width: 230px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #fb4226;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btnLogin {
+  width: 139px;
+  height: 43px;
+  background-color: #54ab35;
+  font-size: 1.6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btnShowingFilm {
+  width: 285px;
+  height: 67px;
+  font-size: 3rem;
+  padding: 7px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 3px solid #fff;
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.btnShowingFilm:hover {
+  color: #ffffff;
+  background-color: #ff5400;
+  border: 3px solid #ff5400;
+  font-weight: bold;
+}
+
+.btnSearchFilm {
+  width: 200px;
+  height: 60px;
+  border-radius: 35px;
+  background-color: #54ab35;
+  pointer-events: none;
+}
+
+.booked {
+  max-width: 69px;
+  height: 35px;
+  background-color: #fb4226;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+
+.bookedEnd {
+  max-width: 100px;
+  height: 50px;
+  background-color: #fb4226;
+  color: #fff;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+
+.changePassword {
+  border: 1px solid #f55960;
+  width: 100px;
+  margin-right: 25px;
+  border-radius: 99px;
+  background: #fff;
+  color: #f55960;
+  font-size: 1.6rem;
+  transition: all ease;
+}
+
+.changePassword:hover {
+  background-color: #f55960;
+  color: #fff;
+}
+
+.changeConfirmPassword {
+  width: 430px;
+  height: 36px;
+  background-color: #f55960;
+  cursor: pointer;
+  color: #fff;
+}
+
+.changeConfirmPassword:disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.26);
+}
